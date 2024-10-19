@@ -1,14 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise</title>
 </head>
+
 <body>
     <script>
-        // Write your code here
+        let color = prompt("Enter the Color(Red,Yellow or Green)");
+        switch (color) {
+            case "Red":
+                alert("Stop")
+                break;
+            case "Yellow":
+                alert("Ready for Go")
+                break;
+            case 'Green':
+                alert('Go')
+                break;
+            default:
+                alert("Invalid color, Please enter Red ,Yellow or Green color")
+                break;
+
+        }
     </script>
 </body>
+
 </html>
